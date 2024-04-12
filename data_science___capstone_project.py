@@ -52,7 +52,7 @@ pd.set_option("display.max_rows",200)
 
 """## Loading the Dataset into pandas DataFrame"""
 
-heart_df = pd.read_csv("/content/drive/MyDrive/Data Science/Data Science IIT Guwahati/IITG_B05_09_CapstoneProject/HeartDisease.csv")
+heart_df = pd.read_csv("Kaggle.HeartDisease.csv")
 print(heart_df.shape)
 heart_df.head()
 
